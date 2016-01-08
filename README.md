@@ -1,0 +1,2 @@
+# Serializer
+Extended JS serializer
