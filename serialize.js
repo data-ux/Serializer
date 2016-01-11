@@ -1,4 +1,5 @@
 window.Serializer = (function(){
+    "use strict";
     var queue;
     
 	function getObjectIndex(obj){
