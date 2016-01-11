@@ -1,4 +1,4 @@
-window.Serializer = (function(){
+(function(global){
     "use strict";
     var queue;
     
@@ -57,8 +57,8 @@ window.Serializer = (function(){
         return list[0];
     }
     
-    return {
+    global.Serializer = {
         stringify: serialize,
         parse: deserialize
     };
-})();
+})(this);
